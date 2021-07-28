@@ -9,7 +9,7 @@ set -e
 SSH_PATH="$HOME/.ssh"
 KNOWN_HOSTS_PATH="$SSH_PATH/known_hosts"
 WPE_SSHG_KEY_PRIVATE_PATH="$SSH_PATH/github_action"
-WPE_SSHG_KEY_KEY_PUBLIC_PATH="$SSH_PATH/github_action.pub"
+WPE_SSHG_KEY_PUBLIC_PATH="$SSH_PATH/github_action.pub"
 
 ###
 # If you'd like to expand the environments,
